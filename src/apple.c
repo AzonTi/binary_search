@@ -17,7 +17,7 @@ int main(){
   }
 
   lb = 0;
-  ub = 1145141919;
+  ub = 1000000000;
   while (ub - lb > 1) {
     int m = (lb + ub) / 2;
     if (p(m)) ub = m;
